@@ -1,12 +1,18 @@
 # loan-performance-simulator
 
-The Loan Performance Simulator is a lightweight analytics tool that:
+A simple simulator to model loan performance using synthetic data, run basic ML predictions, and present results via Streamlit.
 
-1. Generates synthetic loan data
+## Features
+- Generates synthetic loan book
+- Simulates default/prepayment using probabilistic rules
+- Streamlit dashboard for visualization
 
-2. Simulates loan performance over time
+## Run the dashboard
+```bash
+streamlit run dashboards/streamlit_app.py
+```
 
-3. Estimates default and prepayment behavior
-
-4. Visualizes results using a Streamlit dashboard
-
+## Testing
+```bash
+pytest tests/
+```
