@@ -2,11 +2,11 @@
 
 The Loan Performance Simulator is a lightweight analytics tool that:
 
-## Generates synthetic loan data
+1. Generates synthetic loan data
 
-## Simulates loan performance over time
+2. Simulates loan performance over time
 
-## Estimates default and prepayment behavior
+3. Estimates default and prepayment behavior
 
-## Visualizes results using a Streamlit dashboard
+4. Visualizes results using a Streamlit dashboard
 
